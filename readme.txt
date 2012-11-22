@@ -1,11 +1,11 @@
-XML Representation of Unicode 6.1.0 UCD
+XML Representation of Unicode 6.2.0 UCD
 
 
 Copyright (c) 1991-2012 Unicode, Inc.
 For terms of use, see http://www.unicode.org/terms_of_use.html
 
 
-This directory contains the representation in XML of version 6.1.0 of
+This directory contains the representation in XML of version 6.2.0 of
 the UCD, using the schema defined by UAX 42, "Unicode Character
 Database in XML".
 
@@ -20,8 +20,8 @@ the archive:
                     flat         grouped
 
 no Unihan data       638 KB          409 KB
-Unihan data only   5,527 KB        5,533 KB
-complete UCD       6,930 KB        5,942 KB
+Unihan data only   5,585 KB        5,591 KB
+complete UCD       6,997 KB        6,001 KB
 
 The flat versions do not use the group mechanism. The grouped versions
 use the group mechanism, with groups corresponding approximately to

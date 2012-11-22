@@ -5,7 +5,7 @@
 
 
 <ucd xmlns="http://www.unicode.org/ns/2003/ucd/1.0">
-   <description>Unicode 6.1.0</description>
+   <description>Unicode 6.2.0</description>
    <repertoire>
       <group age="1.1" na="" JSN="" gc="Cc" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="BN" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="CM" sc="Zyyy" scx="Zyyy" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="N" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="CN" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="ASCII" isc="">
          <char cp="0000" na1="NULL">
@@ -1088,10 +1088,10 @@
          <char cp="033F" na="COMBINING DOUBLE OVERLINE" na1="NON-SPACING DOUBLE OVERSCORE"/>
          <char cp="0340" na="COMBINING GRAVE TONE MARK" dt="can" dm="0300" Comp_Ex="Y" NFC_QC="N" NFD_QC="N" NFKC_QC="N" NFKD_QC="N" CWKCF="Y" NFKC_CF="0300" na1="NON-SPACING GRAVE TONE MARK"/>
          <char cp="0341" na="COMBINING ACUTE TONE MARK" dt="can" dm="0301" Comp_Ex="Y" NFC_QC="N" NFD_QC="N" NFKC_QC="N" NFKD_QC="N" CWKCF="Y" NFKC_CF="0301" na1="NON-SPACING ACUTE TONE MARK"/>
-         <char cp="0342" na="COMBINING GREEK PERISPOMENI" NFC_QC="M" NFKC_QC="M"/>
+         <char cp="0342" na="COMBINING GREEK PERISPOMENI" scx="Grek" NFC_QC="M" NFKC_QC="M"/>
          <char cp="0343" na="COMBINING GREEK KORONIS" dt="can" dm="0313" Comp_Ex="Y" NFC_QC="N" NFD_QC="N" NFKC_QC="N" NFKD_QC="N" CWKCF="Y" NFKC_CF="0313"/>
          <char cp="0344" na="COMBINING GREEK DIALYTIKA TONOS" dt="can" dm="0308 0301" Comp_Ex="Y" NFC_QC="N" NFD_QC="N" NFKC_QC="N" NFKD_QC="N" XO_NFC="Y" XO_NFD="Y" XO_NFKC="Y" XO_NFKD="Y" CWKCF="Y" NFKC_CF="0308 0301" na1="GREEK NON-SPACING DIAERESIS TONOS"/>
-         <char cp="0345" na="COMBINING GREEK YPOGEGRAMMENI" ccc="240" suc="0399" stc="0399" uc="0399" tc="0399" scf="03B9" cf="03B9" Alpha="Y" OAlpha="Y" Lower="Y" OLower="Y" NFC_QC="M" NFKC_QC="M" Cased="Y" CWCF="Y" CWCM="Y" CWKCF="Y" CWT="Y" CWU="Y" NFKC_CF="03B9" na1="GREEK NON-SPACING IOTA BELOW"/>
+         <char cp="0345" na="COMBINING GREEK YPOGEGRAMMENI" ccc="240" suc="0399" stc="0399" uc="0399" tc="0399" scf="03B9" cf="03B9" scx="Grek" Alpha="Y" OAlpha="Y" Lower="Y" OLower="Y" NFC_QC="M" NFKC_QC="M" Cased="Y" CWCF="Y" CWCM="Y" CWKCF="Y" CWT="Y" CWU="Y" NFKC_CF="03B9" na1="GREEK NON-SPACING IOTA BELOW"/>
          <char cp="0346" age="3.0" na="COMBINING BRIDGE ABOVE"/>
          <char cp="0347" age="3.0" na="COMBINING EQUALS SIGN BELOW" ccc="220"/>
          <char cp="0348" age="3.0" na="COMBINING DOUBLE VERTICAL LINE BELOW" ccc="220"/>
@@ -1123,19 +1123,19 @@
          <char cp="0360" na="COMBINING DOUBLE TILDE" ccc="234" lb="GL"/>
          <char cp="0361" na="COMBINING DOUBLE INVERTED BREVE" ccc="234" lb="GL"/>
          <char cp="0362" age="3.0" na="COMBINING DOUBLE RIGHTWARDS ARROW BELOW" ccc="233" lb="GL"/>
-         <char cp="0363" age="3.2" na="COMBINING LATIN SMALL LETTER A" Dia="N"/>
-         <char cp="0364" age="3.2" na="COMBINING LATIN SMALL LETTER E" Dia="N"/>
-         <char cp="0365" age="3.2" na="COMBINING LATIN SMALL LETTER I" Dia="N"/>
-         <char cp="0366" age="3.2" na="COMBINING LATIN SMALL LETTER O" Dia="N"/>
-         <char cp="0367" age="3.2" na="COMBINING LATIN SMALL LETTER U" Dia="N"/>
-         <char cp="0368" age="3.2" na="COMBINING LATIN SMALL LETTER C" Dia="N"/>
-         <char cp="0369" age="3.2" na="COMBINING LATIN SMALL LETTER D" Dia="N"/>
-         <char cp="036A" age="3.2" na="COMBINING LATIN SMALL LETTER H" Dia="N"/>
-         <char cp="036B" age="3.2" na="COMBINING LATIN SMALL LETTER M" Dia="N"/>
-         <char cp="036C" age="3.2" na="COMBINING LATIN SMALL LETTER R" Dia="N"/>
-         <char cp="036D" age="3.2" na="COMBINING LATIN SMALL LETTER T" Dia="N"/>
-         <char cp="036E" age="3.2" na="COMBINING LATIN SMALL LETTER V" Dia="N"/>
-         <char cp="036F" age="3.2" na="COMBINING LATIN SMALL LETTER X" Dia="N"/>
+         <char cp="0363" age="3.2" na="COMBINING LATIN SMALL LETTER A" scx="Latn" Dia="N"/>
+         <char cp="0364" age="3.2" na="COMBINING LATIN SMALL LETTER E" scx="Latn" Dia="N"/>
+         <char cp="0365" age="3.2" na="COMBINING LATIN SMALL LETTER I" scx="Latn" Dia="N"/>
+         <char cp="0366" age="3.2" na="COMBINING LATIN SMALL LETTER O" scx="Latn" Dia="N"/>
+         <char cp="0367" age="3.2" na="COMBINING LATIN SMALL LETTER U" scx="Latn" Dia="N"/>
+         <char cp="0368" age="3.2" na="COMBINING LATIN SMALL LETTER C" scx="Latn" Dia="N"/>
+         <char cp="0369" age="3.2" na="COMBINING LATIN SMALL LETTER D" scx="Latn" Dia="N"/>
+         <char cp="036A" age="3.2" na="COMBINING LATIN SMALL LETTER H" scx="Latn" Dia="N"/>
+         <char cp="036B" age="3.2" na="COMBINING LATIN SMALL LETTER M" scx="Latn" Dia="N"/>
+         <char cp="036C" age="3.2" na="COMBINING LATIN SMALL LETTER R" scx="Latn" Dia="N"/>
+         <char cp="036D" age="3.2" na="COMBINING LATIN SMALL LETTER T" scx="Latn" Dia="N"/>
+         <char cp="036E" age="3.2" na="COMBINING LATIN SMALL LETTER V" scx="Latn" Dia="N"/>
+         <char cp="036F" age="3.2" na="COMBINING LATIN SMALL LETTER X" scx="Latn" Dia="N"/>
       </group>
       <group age="1.1" JSN="" gc="Ll" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="L" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="AL" sc="Grek" scx="Grek" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="Y" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="Y" OIDS="N" XIDS="Y" IDC="Y" OIDC="N" XIDC="Y" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="XX" WB="LE" SB="LO" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="Y" CWCF="N" CWCM="Y" CWKCF="Y" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Greek" isc="" na1="">
          <char cp="0370" age="5.1" na="GREEK CAPITAL LETTER HETA" gc="Lu" slc="0371" lc="0371" scf="0371" cf="0371" Upper="Y" SB="UP" CWCF="Y" CWL="Y" NFKC_CF="0371"/>
@@ -1412,8 +1412,8 @@
          <char cp="0482" na="CYRILLIC THOUSANDS SIGN" gc="So" Alpha="N" IDS="N" XIDS="N" IDC="N" XIDC="N" WB="XX" SB="XX" Cased="N" CWCM="N"/>
          <char cp="0483" na="COMBINING CYRILLIC TITLO" gc="Mn" ccc="230" bc="NSM" jt="T" lb="CM" Alpha="N" Gr_Base="N" Gr_Ext="Y" Dia="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y" Cased="N" CWCM="N" na1="CYRILLIC NON-SPACING TITLO"/>
          <char cp="0484" na="COMBINING CYRILLIC PALATALIZATION" gc="Mn" ccc="230" bc="NSM" jt="T" lb="CM" Alpha="N" Gr_Base="N" Gr_Ext="Y" Dia="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y" Cased="N" CWCM="N" na1="CYRILLIC NON-SPACING PALATALIZATION"/>
-         <char cp="0485" na="COMBINING CYRILLIC DASIA PNEUMATA" gc="Mn" ccc="230" bc="NSM" jt="T" lb="CM" sc="Zinh" scx="Zinh" Alpha="N" Gr_Base="N" Gr_Ext="Y" Dia="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y" Cased="N" CWCM="N" na1="CYRILLIC NON-SPACING DASIA PNEUMATA"/>
-         <char cp="0486" na="COMBINING CYRILLIC PSILI PNEUMATA" gc="Mn" ccc="230" bc="NSM" jt="T" lb="CM" sc="Zinh" scx="Zinh" Alpha="N" Gr_Base="N" Gr_Ext="Y" Dia="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y" Cased="N" CWCM="N" na1="CYRILLIC NON-SPACING PSILI PNEUMATA"/>
+         <char cp="0485" na="COMBINING CYRILLIC DASIA PNEUMATA" gc="Mn" ccc="230" bc="NSM" jt="T" lb="CM" sc="Zinh" scx="Cyrl Latn" Alpha="N" Gr_Base="N" Gr_Ext="Y" Dia="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y" Cased="N" CWCM="N" na1="CYRILLIC NON-SPACING DASIA PNEUMATA"/>
+         <char cp="0486" na="COMBINING CYRILLIC PSILI PNEUMATA" gc="Mn" ccc="230" bc="NSM" jt="T" lb="CM" sc="Zinh" scx="Cyrl Latn" Alpha="N" Gr_Base="N" Gr_Ext="Y" Dia="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y" Cased="N" CWCM="N" na1="CYRILLIC NON-SPACING PSILI PNEUMATA"/>
          <char cp="0487" age="5.1" na="COMBINING CYRILLIC POKRYTIE" gc="Mn" ccc="230" bc="NSM" jt="T" lb="CM" Alpha="N" Gr_Base="N" Gr_Ext="Y" Dia="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y" Cased="N" CWCM="N"/>
          <char cp="0488" age="3.0" na="COMBINING CYRILLIC HUNDRED THOUSANDS SIGN" gc="Me" bc="NSM" jt="T" lb="CM" Alpha="N" Gr_Base="N" Gr_Ext="Y" IDS="N" XIDS="N" IDC="N" XIDC="N" GCB="EX" WB="Extend" SB="EX" CI="Y" Cased="N" CWCM="N"/>
          <char cp="0489" age="3.0" na="COMBINING CYRILLIC MILLIONS SIGN" gc="Me" bc="NSM" jt="T" lb="CM" Alpha="N" Gr_Base="N" Gr_Ext="Y" IDS="N" XIDS="N" IDC="N" XIDC="N" GCB="EX" WB="Extend" SB="EX" CI="Y" Cased="N" CWCM="N"/>
@@ -1861,7 +1861,7 @@
          <char cp="065C" age="4.1" na="ARABIC VOWEL SIGN DOT BELOW" gc="Mn" ccc="220" bc="NSM" jt="T" lb="CM" OAlpha="Y" Gr_Base="N" Gr_Ext="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y"/>
          <char cp="065D" age="4.1" na="ARABIC REVERSED DAMMA" gc="Mn" ccc="230" bc="NSM" jt="T" lb="CM" OAlpha="Y" Gr_Base="N" Gr_Ext="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y"/>
          <char cp="065E" age="4.1" na="ARABIC FATHA WITH TWO DOTS" gc="Mn" ccc="230" bc="NSM" jt="T" lb="CM" OAlpha="Y" Gr_Base="N" Gr_Ext="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y"/>
-         <char cp="065F" age="6.0" na="ARABIC WAVY HAMZA BELOW" gc="Mn" ccc="220" bc="NSM" jt="T" lb="CM" sc="Zinh" scx="Zinh" OAlpha="Y" Gr_Base="N" Gr_Ext="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y"/>
+         <char cp="065F" age="6.0" na="ARABIC WAVY HAMZA BELOW" gc="Mn" ccc="220" bc="NSM" jt="T" lb="CM" OAlpha="Y" Gr_Base="N" Gr_Ext="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y"/>
          <char cp="0660" na="ARABIC-INDIC DIGIT ZERO" gc="Nd" nt="De" nv="0" bc="AN" jt="U" lb="NU" sc="Zyyy" scx="Arab Thaa" Alpha="N" IDS="N" XIDS="N" WB="NU" SB="NU"/>
          <char cp="0661" na="ARABIC-INDIC DIGIT ONE" gc="Nd" nt="De" nv="1" bc="AN" jt="U" lb="NU" sc="Zyyy" scx="Arab Thaa" Alpha="N" IDS="N" XIDS="N" WB="NU" SB="NU"/>
          <char cp="0662" na="ARABIC-INDIC DIGIT TWO" gc="Nd" nt="De" nv="2" bc="AN" jt="U" lb="NU" sc="Zyyy" scx="Arab Thaa" Alpha="N" IDS="N" XIDS="N" WB="NU" SB="NU"/>
@@ -2033,7 +2033,9 @@
          <char cp="0706" na="SYRIAC COLON SKEWED LEFT" gc="Po" jt="U" Alpha="N" Term="Y" IDC="N" XIDC="N" WB="XX" SB="XX"/>
          <char cp="0707" na="SYRIAC COLON SKEWED RIGHT" gc="Po" jt="U" Alpha="N" Term="Y" IDC="N" XIDC="N" WB="XX" SB="XX"/>
          <char cp="0708" na="SYRIAC SUPRALINEAR COLON SKEWED LEFT" gc="Po" jt="U" Alpha="N" Term="Y" IDC="N" XIDC="N" WB="XX" SB="XX"/>
-         <char cp="0709" na="SYRIAC SUBLINEAR COLON SKEWED RIGHT" gc="Po" jt="U" Alpha="N" Term="Y" IDC="N" XIDC="N" WB="XX" SB="XX"/>
+         <char cp="0709" na="SYRIAC SUBLINEAR COLON SKEWED RIGHT" gc="Po" jt="U" Alpha="N" Term="Y" IDC="N" XIDC="N" WB="XX" SB="XX">
+            <name-alias alias="SYRIAC SUBLINEAR COLON SKEWED LEFT" type="correction"/>
+         </char>
          <char cp="070A" na="SYRIAC CONTRACTION" gc="Po" jt="U" Alpha="N" Term="Y" IDC="N" XIDC="N" WB="XX" SB="XX"/>
          <char cp="070B" na="SYRIAC HARKLEAN OBELUS" gc="Po" jt="U" Alpha="N" IDC="N" XIDC="N" WB="XX" SB="XX"/>
          <char cp="070C" na="SYRIAC HARKLEAN METOBELUS" gc="Po" jt="U" Alpha="N" Term="Y" IDC="N" XIDC="N" WB="XX" SB="XX"/>
@@ -2496,8 +2498,8 @@
          <char cp="094E" age="5.2" na="DEVANAGARI VOWEL SIGN PRISHTHAMATRA E" gc="Mc" lb="CM" OAlpha="Y" IDS="N" XIDS="N" GCB="SM" WB="Extend" SB="EX" InSC="Vowel_Dependent" InMC="Left"/>
          <char cp="094F" age="6.0" na="DEVANAGARI VOWEL SIGN AW" gc="Mc" lb="CM" OAlpha="Y" IDS="N" XIDS="N" GCB="SM" WB="Extend" SB="EX" InSC="Vowel_Dependent" InMC="Right"/>
          <char cp="0950" na="DEVANAGARI OM" InSC="Other"/>
-         <char cp="0951" na="DEVANAGARI STRESS SIGN UDATTA" gc="Mn" ccc="230" bc="NSM" jt="T" lb="CM" sc="Zinh" scx="Zinh" Alpha="N" Gr_Base="N" Gr_Ext="Y" Dia="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y" InSC="Other"/>
-         <char cp="0952" na="DEVANAGARI STRESS SIGN ANUDATTA" gc="Mn" ccc="220" bc="NSM" jt="T" lb="CM" sc="Zinh" scx="Zinh" Alpha="N" Gr_Base="N" Gr_Ext="Y" Dia="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y" InSC="Other"/>
+         <char cp="0951" na="DEVANAGARI STRESS SIGN UDATTA" gc="Mn" ccc="230" bc="NSM" jt="T" lb="CM" sc="Zinh" scx="Deva Latn" Alpha="N" Gr_Base="N" Gr_Ext="Y" Dia="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y" InSC="Other"/>
+         <char cp="0952" na="DEVANAGARI STRESS SIGN ANUDATTA" gc="Mn" ccc="220" bc="NSM" jt="T" lb="CM" sc="Zinh" scx="Deva Latn" Alpha="N" Gr_Base="N" Gr_Ext="Y" Dia="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y" InSC="Other"/>
          <char cp="0953" na="DEVANAGARI GRAVE ACCENT" gc="Mn" ccc="230" bc="NSM" jt="T" lb="CM" Alpha="N" Gr_Base="N" Gr_Ext="Y" Dia="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y" InSC="Other"/>
          <char cp="0954" na="DEVANAGARI ACUTE ACCENT" gc="Mn" ccc="230" bc="NSM" jt="T" lb="CM" Alpha="N" Gr_Base="N" Gr_Ext="Y" Dia="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y" InSC="Other"/>
          <char cp="0955" age="5.2" na="DEVANAGARI VOWEL SIGN CANDRA LONG E" gc="Mn" bc="NSM" jt="T" lb="CM" OAlpha="Y" Gr_Base="N" Gr_Ext="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y" InSC="Vowel_Dependent" InMC="Top"/>
@@ -2515,8 +2517,8 @@
          <char cp="0961" na="DEVANAGARI LETTER VOCALIC LL" InSC="Vowel_Independent"/>
          <char cp="0962" na="DEVANAGARI VOWEL SIGN VOCALIC L" gc="Mn" bc="NSM" jt="T" lb="CM" OAlpha="Y" Gr_Base="N" Gr_Ext="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y" InSC="Vowel_Dependent" InMC="Bottom"/>
          <char cp="0963" na="DEVANAGARI VOWEL SIGN VOCALIC LL" gc="Mn" bc="NSM" jt="T" lb="CM" OAlpha="Y" Gr_Base="N" Gr_Ext="Y" IDS="N" XIDS="N" GCB="EX" WB="Extend" SB="EX" CI="Y" InSC="Vowel_Dependent" InMC="Bottom"/>
-         <char cp="0964" na="DEVANAGARI DANDA" gc="Po" lb="BA" sc="Zyyy" scx="Beng Deva Guru Orya" Alpha="N" STerm="Y" Term="Y" IDS="N" XIDS="N" IDC="N" XIDC="N" WB="XX" SB="ST" InSC="Other"/>
-         <char cp="0965" na="DEVANAGARI DOUBLE DANDA" gc="Po" lb="BA" sc="Zyyy" scx="Beng Deva Guru Orya" Alpha="N" STerm="Y" Term="Y" IDS="N" XIDS="N" IDC="N" XIDC="N" WB="XX" SB="ST" InSC="Other"/>
+         <char cp="0964" na="DEVANAGARI DANDA" gc="Po" lb="BA" sc="Zyyy" scx="Beng Deva Guru Orya Takr" Alpha="N" STerm="Y" Term="Y" IDS="N" XIDS="N" IDC="N" XIDC="N" WB="XX" SB="ST" InSC="Other"/>
+         <char cp="0965" na="DEVANAGARI DOUBLE DANDA" gc="Po" lb="BA" sc="Zyyy" scx="Beng Deva Guru Orya Takr" Alpha="N" STerm="Y" Term="Y" IDS="N" XIDS="N" IDC="N" XIDC="N" WB="XX" SB="ST" InSC="Other"/>
          <char cp="0966" na="DEVANAGARI DIGIT ZERO" gc="Nd" nt="De" nv="0" lb="NU" Alpha="N" IDS="N" XIDS="N" WB="NU" SB="NU" InSC="Other"/>
          <char cp="0967" na="DEVANAGARI DIGIT ONE" gc="Nd" nt="De" nv="1" lb="NU" Alpha="N" IDS="N" XIDS="N" WB="NU" SB="NU" InSC="Other"/>
          <char cp="0968" na="DEVANAGARI DIGIT TWO" gc="Nd" nt="De" nv="2" lb="NU" Alpha="N" IDS="N" XIDS="N" WB="NU" SB="NU" InSC="Other"/>
@@ -4298,11 +4300,11 @@
          <char cp="11A0" na="HANGUL JUNGSEONG ARAEA-U"/>
          <char cp="11A1" na="HANGUL JUNGSEONG ARAEA-I"/>
          <char cp="11A2" na="HANGUL JUNGSEONG SSANGARAEA"/>
-         <char cp="11A3" age="5.2" na="HANGUL JUNGSEONG A-EU" ea="W"/>
-         <char cp="11A4" age="5.2" na="HANGUL JUNGSEONG YA-U" ea="W"/>
-         <char cp="11A5" age="5.2" na="HANGUL JUNGSEONG YEO-YA" ea="W"/>
-         <char cp="11A6" age="5.2" na="HANGUL JUNGSEONG O-YA" ea="W"/>
-         <char cp="11A7" age="5.2" na="HANGUL JUNGSEONG O-YAE" ea="W"/>
+         <char cp="11A3" age="5.2" na="HANGUL JUNGSEONG A-EU"/>
+         <char cp="11A4" age="5.2" na="HANGUL JUNGSEONG YA-U"/>
+         <char cp="11A5" age="5.2" na="HANGUL JUNGSEONG YEO-YA"/>
+         <char cp="11A6" age="5.2" na="HANGUL JUNGSEONG O-YA"/>
+         <char cp="11A7" age="5.2" na="HANGUL JUNGSEONG O-YAE"/>
       </group>
       <group age="1.1" JSN="" gc="Lo" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="L" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="JT" sc="Hang" scx="Hang" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="T" DI="N" ODI="N" Alpha="Y" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="Y" OIDS="N" XIDS="Y" IDC="Y" OIDC="N" XIDC="Y" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="T" WB="LE" SB="LE" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Jamo" isc="" na1="">
          <char cp="11A8" na="HANGUL JONGSEONG KIYEOK" JSN="G" NFC_QC="M" NFKC_QC="M"/>
@@ -4387,12 +4389,12 @@
          <char cp="11F7" na="HANGUL JONGSEONG HIEUH-MIEUM"/>
          <char cp="11F8" na="HANGUL JONGSEONG HIEUH-PIEUP"/>
          <char cp="11F9" na="HANGUL JONGSEONG YEORINHIEUH"/>
-         <char cp="11FA" age="5.2" na="HANGUL JONGSEONG KIYEOK-NIEUN" ea="W"/>
-         <char cp="11FB" age="5.2" na="HANGUL JONGSEONG KIYEOK-PIEUP" ea="W"/>
-         <char cp="11FC" age="5.2" na="HANGUL JONGSEONG KIYEOK-CHIEUCH" ea="W"/>
-         <char cp="11FD" age="5.2" na="HANGUL JONGSEONG KIYEOK-KHIEUKH" ea="W"/>
-         <char cp="11FE" age="5.2" na="HANGUL JONGSEONG KIYEOK-HIEUH" ea="W"/>
-         <char cp="11FF" age="5.2" na="HANGUL JONGSEONG SSANGNIEUN" ea="W"/>
+         <char cp="11FA" age="5.2" na="HANGUL JONGSEONG KIYEOK-NIEUN"/>
+         <char cp="11FB" age="5.2" na="HANGUL JONGSEONG KIYEOK-PIEUP"/>
+         <char cp="11FC" age="5.2" na="HANGUL JONGSEONG KIYEOK-CHIEUCH"/>
+         <char cp="11FD" age="5.2" na="HANGUL JONGSEONG KIYEOK-KHIEUKH"/>
+         <char cp="11FE" age="5.2" na="HANGUL JONGSEONG KIYEOK-HIEUH"/>
+         <char cp="11FF" age="5.2" na="HANGUL JONGSEONG SSANGNIEUN"/>
       </group>
       <group age="3.0" JSN="" gc="Lo" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="L" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="AL" sc="Ethi" scx="Ethi" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="Y" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="Y" OIDS="N" XIDS="Y" IDC="Y" OIDC="N" XIDC="Y" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="XX" WB="LE" SB="LE" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Ethiopic" isc="" na1="">
          <char cp="1200" na="ETHIOPIC SYLLABLE HA"/>
@@ -6899,7 +6901,7 @@
          <char cp="1CC7" na="SUNDANESE PUNCTUATION BINDU BA SATANGA"/>
          <reserved first-cp="1CC8" last-cp="1CCF" age="unassigned" na="" gc="Cn" lb="XX" sc="Zzzz" scx="Zzzz" Gr_Base="N"/>
       </group>
-      <group age="5.2" JSN="" gc="Mn" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="NSM" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="T" jg="No_Joining_Group" ea="N" lb="CM" sc="Zinh" scx="Zinh" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="N" Gr_Ext="Y" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="Y" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="Y" OIDC="N" XIDC="Y" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="EX" WB="Extend" SB="EX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="Y" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Vedic_Ext" isc="" na1="">
+      <group age="5.2" JSN="" gc="Mn" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="NSM" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="T" jg="No_Joining_Group" ea="N" lb="CM" sc="Zinh" scx="Deva" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="N" Gr_Ext="Y" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="Y" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="Y" OIDC="N" XIDC="Y" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="EX" WB="Extend" SB="EX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="Y" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Vedic_Ext" isc="" na1="">
          <char cp="1CD0" na="VEDIC TONE KARSHANA" ccc="230"/>
          <char cp="1CD1" na="VEDIC TONE SHARA" ccc="230"/>
          <char cp="1CD2" na="VEDIC TONE PRENKHA" ccc="230"/>
@@ -6917,7 +6919,7 @@
          <char cp="1CDE" na="VEDIC TONE TWO DOTS BELOW" ccc="220"/>
          <char cp="1CDF" na="VEDIC TONE THREE DOTS BELOW" ccc="220"/>
          <char cp="1CE0" na="VEDIC TONE RIGVEDIC KASHMIRI INDEPENDENT SVARITA" ccc="230"/>
-         <char cp="1CE1" na="VEDIC TONE ATHARVAVEDIC INDEPENDENT SVARITA" gc="Mc" bc="L" jt="U" sc="Zyyy" scx="Zyyy" Gr_Base="Y" Gr_Ext="N" GCB="SM" CI="N"/>
+         <char cp="1CE1" na="VEDIC TONE ATHARVAVEDIC INDEPENDENT SVARITA" gc="Mc" bc="L" jt="U" sc="Zyyy" Gr_Base="Y" Gr_Ext="N" GCB="SM" CI="N"/>
          <char cp="1CE2" na="VEDIC SIGN VISARGA SVARITA" ccc="1"/>
          <char cp="1CE3" na="VEDIC SIGN VISARGA UDATTA" ccc="1"/>
          <char cp="1CE4" na="VEDIC SIGN REVERSED VISARGA UDATTA" ccc="1"/>
@@ -6934,8 +6936,8 @@
          <char cp="1CEF" na="VEDIC SIGN LONG ANUSVARA" gc="Lo" bc="L" jt="U" lb="AL" sc="Zyyy" scx="Zyyy" Alpha="Y" Gr_Base="Y" Gr_Ext="N" Dia="N" IDS="Y" XIDS="Y" GCB="XX" WB="LE" SB="LE" CI="N"/>
          <char cp="1CF0" na="VEDIC SIGN RTHANG LONG ANUSVARA" gc="Lo" bc="L" jt="U" lb="AL" sc="Zyyy" scx="Zyyy" Alpha="Y" Gr_Base="Y" Gr_Ext="N" Dia="N" IDS="Y" XIDS="Y" GCB="XX" WB="LE" SB="LE" CI="N"/>
          <char cp="1CF1" na="VEDIC SIGN ANUSVARA UBHAYATO MUKHA" gc="Lo" bc="L" jt="U" lb="AL" sc="Zyyy" scx="Zyyy" Alpha="Y" Gr_Base="Y" Gr_Ext="N" Dia="N" IDS="Y" XIDS="Y" GCB="XX" WB="LE" SB="LE" CI="N"/>
-         <char cp="1CF2" na="VEDIC SIGN ARDHAVISARGA" gc="Mc" bc="L" jt="U" sc="Zyyy" scx="Zyyy" Alpha="Y" OAlpha="Y" Gr_Base="Y" Gr_Ext="N" Dia="N" GCB="SM" CI="N" InSC="Visarga"/>
-         <char cp="1CF3" age="6.1" na="VEDIC SIGN ROTATED ARDHAVISARGA" gc="Mc" bc="L" jt="U" sc="Zyyy" scx="Zyyy" Alpha="Y" OAlpha="Y" Gr_Base="Y" Gr_Ext="N" Dia="N" GCB="SM" CI="N" InSC="Visarga"/>
+         <char cp="1CF2" na="VEDIC SIGN ARDHAVISARGA" gc="Mc" bc="L" jt="U" sc="Zyyy" Alpha="Y" OAlpha="Y" Gr_Base="Y" Gr_Ext="N" Dia="N" GCB="SM" CI="N" InSC="Visarga"/>
+         <char cp="1CF3" age="6.1" na="VEDIC SIGN ROTATED ARDHAVISARGA" gc="Mc" bc="L" jt="U" sc="Zyyy" Alpha="Y" OAlpha="Y" Gr_Base="Y" Gr_Ext="N" Dia="N" GCB="SM" CI="N" InSC="Visarga"/>
          <char cp="1CF4" age="6.1" na="VEDIC TONE CANDRA ABOVE" ccc="230"/>
          <char cp="1CF5" age="6.1" na="VEDIC SIGN JIHVAMULIYA" gc="Lo" bc="L" jt="U" lb="AL" sc="Zyyy" scx="Zyyy" Alpha="Y" Gr_Base="Y" Gr_Ext="N" Dia="N" IDS="Y" XIDS="Y" GCB="XX" WB="LE" SB="LE" CI="N"/>
          <char cp="1CF6" age="6.1" na="VEDIC SIGN UPADHMANIYA" gc="Lo" bc="L" jt="U" lb="AL" sc="Zyyy" scx="Zyyy" Alpha="Y" Gr_Base="Y" Gr_Ext="N" Dia="N" IDS="Y" XIDS="Y" GCB="XX" WB="LE" SB="LE" CI="N"/>
@@ -7138,8 +7140,8 @@
          <char cp="1DBF" na="MODIFIER LETTER SMALL THETA" dm="03B8" sc="Grek" scx="Grek" NFKC_CF="03B8"/>
       </group>
       <group age="5.1" JSN="" gc="Mn" ccc="230" dt="none" dm="#" nt="None" nv="NaN" bc="NSM" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="T" jg="No_Joining_Group" ea="N" lb="CM" sc="Zinh" scx="Zinh" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="N" Gr_Ext="Y" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="Y" OIDC="N" XIDC="Y" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="EX" WB="Extend" SB="EX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="Y" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Diacriticals_Sup" isc="" na1="">
-         <char cp="1DC0" age="4.1" na="COMBINING DOTTED GRAVE ACCENT"/>
-         <char cp="1DC1" age="4.1" na="COMBINING DOTTED ACUTE ACCENT"/>
+         <char cp="1DC0" age="4.1" na="COMBINING DOTTED GRAVE ACCENT" scx="Grek"/>
+         <char cp="1DC1" age="4.1" na="COMBINING DOTTED ACUTE ACCENT" scx="Grek"/>
          <char cp="1DC2" age="4.1" na="COMBINING SNAKE BELOW" ccc="220"/>
          <char cp="1DC3" age="4.1" na="COMBINING SUSPENSION MARK"/>
          <char cp="1DC4" age="5.0" na="COMBINING MACRON-ACUTE" Dia="Y"/>
@@ -7902,7 +7904,8 @@
          <char cp="20B7" age="5.2" na="SPESMILO SIGN"/>
          <char cp="20B8" age="5.2" na="TENGE SIGN"/>
          <char cp="20B9" age="6.0" na="INDIAN RUPEE SIGN"/>
-         <reserved first-cp="20BA" last-cp="20CF" age="unassigned" na="" gc="Cn" bc="L" lb="XX" sc="Zzzz" scx="Zzzz" Gr_Base="N"/>
+         <char cp="20BA" age="6.2" na="TURKISH LIRA SIGN"/>
+         <reserved first-cp="20BB" last-cp="20CF" age="unassigned" na="" gc="Cn" bc="L" lb="XX" sc="Zzzz" scx="Zzzz" Gr_Base="N"/>
       </group>
       <group age="1.1" JSN="" gc="Mn" ccc="230" dt="none" dm="#" nt="None" nv="NaN" bc="NSM" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="T" jg="No_Joining_Group" ea="N" lb="CM" sc="Zinh" scx="Zinh" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="Y" OMath="Y" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="N" Gr_Ext="Y" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="Y" OIDC="N" XIDC="Y" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="EX" WB="Extend" SB="EX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="Y" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Diacriticals_For_Symbols" isc="" na1="">
          <char cp="20D0" na="COMBINING LEFT HARPOON ABOVE" na1="NON-SPACING LEFT HARPOON ABOVE"/>
@@ -8484,8 +8487,8 @@
          <char cp="2317" na="VIEWDATA SQUARE"/>
          <char cp="2318" na="PLACE OF INTEREST SIGN" na1="COMMAND KEY"/>
          <char cp="2319" na="TURNED NOT SIGN"/>
-         <char cp="231A" na="WATCH"/>
-         <char cp="231B" na="HOURGLASS"/>
+         <char cp="231A" na="WATCH" lb="ID"/>
+         <char cp="231B" na="HOURGLASS" lb="ID"/>
          <char cp="231C" na="TOP LEFT CORNER"/>
          <char cp="231D" na="TOP RIGHT CORNER"/>
          <char cp="231E" na="BOTTOM LEFT CORNER"/>
@@ -8698,10 +8701,10 @@
          <char cp="23ED" age="6.0" na="BLACK RIGHT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR"/>
          <char cp="23EE" age="6.0" na="BLACK LEFT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR"/>
          <char cp="23EF" age="6.0" na="BLACK RIGHT-POINTING TRIANGLE WITH DOUBLE VERTICAL BAR"/>
-         <char cp="23F0" age="6.0" na="ALARM CLOCK"/>
-         <char cp="23F1" age="6.0" na="STOPWATCH"/>
-         <char cp="23F2" age="6.0" na="TIMER CLOCK"/>
-         <char cp="23F3" age="6.0" na="HOURGLASS WITH FLOWING SAND"/>
+         <char cp="23F0" age="6.0" na="ALARM CLOCK" lb="ID"/>
+         <char cp="23F1" age="6.0" na="STOPWATCH" lb="ID"/>
+         <char cp="23F2" age="6.0" na="TIMER CLOCK" lb="ID"/>
+         <char cp="23F3" age="6.0" na="HOURGLASS WITH FLOWING SAND" lb="ID"/>
          <reserved first-cp="23F4" last-cp="23FF" age="unassigned" na="" gc="Cn" bc="L" lb="XX" sc="Zzzz" scx="Zzzz" Gr_Base="N"/>
       </group>
       <group age="1.1" JSN="" gc="So" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="ON" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="AL" sc="Zyyy" scx="Zyyy" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="Y" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Control_Pictures" isc="">
@@ -9189,10 +9192,10 @@
          <char cp="25FF" age="3.2" na="LOWER RIGHT TRIANGLE" gc="Sm" Math="Y"/>
       </group>
       <group age="1.1" JSN="" gc="So" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="ON" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="AL" sc="Zyyy" scx="Zyyy" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="Y" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Misc_Symbols" isc="" na1="">
-         <char cp="2600" na="BLACK SUN WITH RAYS"/>
-         <char cp="2601" na="CLOUD"/>
-         <char cp="2602" na="UMBRELLA"/>
-         <char cp="2603" na="SNOWMAN"/>
+         <char cp="2600" na="BLACK SUN WITH RAYS" lb="ID"/>
+         <char cp="2601" na="CLOUD" lb="ID"/>
+         <char cp="2602" na="UMBRELLA" lb="ID"/>
+         <char cp="2603" na="SNOWMAN" lb="ID"/>
          <char cp="2604" na="COMET"/>
          <char cp="2605" na="BLACK STAR" ea="A" lb="AI" Math="Y" OMath="Y"/>
          <char cp="2606" na="WHITE STAR" ea="A" lb="AI" Math="Y" OMath="Y"/>
@@ -9209,18 +9212,18 @@
          <char cp="2611" na="BALLOT BOX WITH CHECK"/>
          <char cp="2612" na="BALLOT BOX WITH X"/>
          <char cp="2613" na="SALTIRE"/>
-         <char cp="2614" age="4.0" na="UMBRELLA WITH RAIN DROPS" ea="A" lb="AI"/>
-         <char cp="2615" age="4.0" na="HOT BEVERAGE" ea="A" lb="AI"/>
+         <char cp="2614" age="4.0" na="UMBRELLA WITH RAIN DROPS" ea="A" lb="ID"/>
+         <char cp="2615" age="4.0" na="HOT BEVERAGE" ea="A" lb="ID"/>
          <char cp="2616" age="3.2" na="WHITE SHOGI PIECE" lb="AI"/>
          <char cp="2617" age="3.2" na="BLACK SHOGI PIECE" lb="AI"/>
-         <char cp="2618" age="4.1" na="SHAMROCK"/>
+         <char cp="2618" age="4.1" na="SHAMROCK" lb="ID"/>
          <char cp="2619" age="3.0" na="REVERSED ROTATED FLORAL HEART BULLET"/>
-         <char cp="261A" na="BLACK LEFT POINTING INDEX"/>
-         <char cp="261B" na="BLACK RIGHT POINTING INDEX"/>
-         <char cp="261C" na="WHITE LEFT POINTING INDEX" ea="A" lb="AI"/>
-         <char cp="261D" na="WHITE UP POINTING INDEX"/>
-         <char cp="261E" na="WHITE RIGHT POINTING INDEX" ea="A" lb="AI"/>
-         <char cp="261F" na="WHITE DOWN POINTING INDEX"/>
+         <char cp="261A" na="BLACK LEFT POINTING INDEX" lb="ID"/>
+         <char cp="261B" na="BLACK RIGHT POINTING INDEX" lb="ID"/>
+         <char cp="261C" na="WHITE LEFT POINTING INDEX" ea="A" lb="ID"/>
+         <char cp="261D" na="WHITE UP POINTING INDEX" lb="ID"/>
+         <char cp="261E" na="WHITE RIGHT POINTING INDEX" ea="A" lb="ID"/>
+         <char cp="261F" na="WHITE DOWN POINTING INDEX" lb="ID"/>
          <char cp="2620" na="SKULL AND CROSSBONES"/>
          <char cp="2621" na="CAUTION SIGN"/>
          <char cp="2622" na="RADIOACTIVE SIGN"/>
@@ -9246,9 +9249,9 @@
          <char cp="2636" na="TRIGRAM FOR MOUNTAIN"/>
          <char cp="2637" na="TRIGRAM FOR EARTH"/>
          <char cp="2638" na="WHEEL OF DHARMA"/>
-         <char cp="2639" na="WHITE FROWNING FACE"/>
-         <char cp="263A" na="WHITE SMILING FACE"/>
-         <char cp="263B" na="BLACK SMILING FACE"/>
+         <char cp="2639" na="WHITE FROWNING FACE" lb="ID"/>
+         <char cp="263A" na="WHITE SMILING FACE" lb="ID"/>
+         <char cp="263B" na="BLACK SMILING FACE" lb="ID"/>
          <char cp="263C" na="WHITE SUN WITH RAYS"/>
          <char cp="263D" na="FIRST QUARTER MOON"/>
          <char cp="263E" na="LAST QUARTER MOON"/>
@@ -9293,7 +9296,7 @@
          <char cp="2665" na="BLACK HEART SUIT" ea="A" lb="AI"/>
          <char cp="2666" na="BLACK DIAMOND SUIT"/>
          <char cp="2667" na="WHITE CLUB SUIT" ea="A" lb="AI"/>
-         <char cp="2668" na="HOT SPRINGS" ea="A" lb="AI"/>
+         <char cp="2668" na="HOT SPRINGS" ea="A" lb="ID"/>
          <char cp="2669" na="QUARTER NOTE" ea="A" lb="AI"/>
          <char cp="266A" na="EIGHTH NOTE" ea="A" lb="AI"/>
          <char cp="266B" na="BEAMED EIGHTH NOTES" na1="BARRED EIGHTH NOTES"/>
@@ -9316,7 +9319,7 @@
          <char cp="267C" age="3.2" na="RECYCLED PAPER SYMBOL"/>
          <char cp="267D" age="3.2" na="PARTIALLY-RECYCLED PAPER SYMBOL"/>
          <char cp="267E" age="4.1" na="PERMANENT PAPER SIGN"/>
-         <char cp="267F" age="4.1" na="WHEELCHAIR SYMBOL"/>
+         <char cp="267F" age="4.1" na="WHEELCHAIR SYMBOL" lb="ID"/>
          <char cp="2680" age="3.2" na="DIE FACE-1"/>
          <char cp="2681" age="3.2" na="DIE FACE-2"/>
          <char cp="2682" age="3.2" na="DIE FACE-3"/>
@@ -9378,43 +9381,43 @@
          <char cp="26BA" age="5.1" na="SEMISEXTILE"/>
          <char cp="26BB" age="5.1" na="QUINCUNX"/>
          <char cp="26BC" age="5.1" na="SESQUIQUADRATE"/>
-         <char cp="26BD" age="5.2" na="SOCCER BALL"/>
-         <char cp="26BE" age="5.2" na="BASEBALL" ea="A" lb="AI"/>
-         <char cp="26BF" age="5.2" na="SQUARED KEY" ea="A" lb="AI"/>
-         <char cp="26C0" age="5.1" na="WHITE DRAUGHTS MAN"/>
-         <char cp="26C1" age="5.1" na="WHITE DRAUGHTS KING"/>
-         <char cp="26C2" age="5.1" na="BLACK DRAUGHTS MAN"/>
-         <char cp="26C3" age="5.1" na="BLACK DRAUGHTS KING"/>
-         <char cp="26C4" age="5.2" na="SNOWMAN WITHOUT SNOW" ea="A" lb="AI"/>
-         <char cp="26C5" age="5.2" na="SUN BEHIND CLOUD" ea="A" lb="AI"/>
-         <char cp="26C6" age="5.2" na="RAIN" ea="A" lb="AI"/>
-         <char cp="26C7" age="5.2" na="BLACK SNOWMAN" ea="A" lb="AI"/>
-         <char cp="26C8" age="5.2" na="THUNDER CLOUD AND RAIN" ea="A" lb="AI"/>
+         <char cp="26BD" age="5.2" na="SOCCER BALL" lb="ID"/>
+         <char cp="26BE" age="5.2" na="BASEBALL" ea="A" lb="ID"/>
+         <char cp="26BF" age="5.2" na="SQUARED KEY" ea="A" lb="ID"/>
+         <char cp="26C0" age="5.1" na="WHITE DRAUGHTS MAN" lb="ID"/>
+         <char cp="26C1" age="5.1" na="WHITE DRAUGHTS KING" lb="ID"/>
+         <char cp="26C2" age="5.1" na="BLACK DRAUGHTS MAN" lb="ID"/>
+         <char cp="26C3" age="5.1" na="BLACK DRAUGHTS KING" lb="ID"/>
+         <char cp="26C4" age="5.2" na="SNOWMAN WITHOUT SNOW" ea="A" lb="ID"/>
+         <char cp="26C5" age="5.2" na="SUN BEHIND CLOUD" ea="A" lb="ID"/>
+         <char cp="26C6" age="5.2" na="RAIN" ea="A" lb="ID"/>
+         <char cp="26C7" age="5.2" na="BLACK SNOWMAN" ea="A" lb="ID"/>
+         <char cp="26C8" age="5.2" na="THUNDER CLOUD AND RAIN" ea="A" lb="ID"/>
          <char cp="26C9" age="5.2" na="TURNED WHITE SHOGI PIECE" ea="A" lb="AI"/>
          <char cp="26CA" age="5.2" na="TURNED BLACK SHOGI PIECE" ea="A" lb="AI"/>
          <char cp="26CB" age="5.2" na="WHITE DIAMOND IN SQUARE" ea="A" lb="AI"/>
          <char cp="26CC" age="5.2" na="CROSSING LANES" ea="A" lb="AI"/>
-         <char cp="26CD" age="5.2" na="DISABLED CAR" ea="A" lb="AI"/>
+         <char cp="26CD" age="5.2" na="DISABLED CAR" ea="A" lb="ID"/>
          <char cp="26CE" age="6.0" na="OPHIUCHUS"/>
-         <char cp="26CF" age="5.2" na="PICK" ea="A" lb="AI"/>
-         <char cp="26D0" age="5.2" na="CAR SLIDING" ea="A" lb="AI"/>
-         <char cp="26D1" age="5.2" na="HELMET WITH WHITE CROSS" ea="A" lb="AI"/>
+         <char cp="26CF" age="5.2" na="PICK" ea="A" lb="ID"/>
+         <char cp="26D0" age="5.2" na="CAR SLIDING" ea="A" lb="ID"/>
+         <char cp="26D1" age="5.2" na="HELMET WITH WHITE CROSS" ea="A" lb="ID"/>
          <char cp="26D2" age="5.2" na="CIRCLED CROSSING LANES" ea="A" lb="AI"/>
-         <char cp="26D3" age="5.2" na="CHAINS" ea="A" lb="AI"/>
-         <char cp="26D4" age="5.2" na="NO ENTRY" ea="A" lb="AI"/>
+         <char cp="26D3" age="5.2" na="CHAINS" ea="A" lb="ID"/>
+         <char cp="26D4" age="5.2" na="NO ENTRY" ea="A" lb="ID"/>
          <char cp="26D5" age="5.2" na="ALTERNATE ONE-WAY LEFT WAY TRAFFIC" ea="A" lb="AI"/>
          <char cp="26D6" age="5.2" na="BLACK TWO-WAY LEFT WAY TRAFFIC" ea="A" lb="AI"/>
          <char cp="26D7" age="5.2" na="WHITE TWO-WAY LEFT WAY TRAFFIC" ea="A" lb="AI"/>
-         <char cp="26D8" age="5.2" na="BLACK LEFT LANE MERGE" ea="A" lb="AI"/>
-         <char cp="26D9" age="5.2" na="WHITE LEFT LANE MERGE" ea="A" lb="AI"/>
+         <char cp="26D8" age="5.2" na="BLACK LEFT LANE MERGE" ea="A" lb="ID"/>
+         <char cp="26D9" age="5.2" na="WHITE LEFT LANE MERGE" ea="A" lb="ID"/>
          <char cp="26DA" age="5.2" na="DRIVE SLOW SIGN" ea="A" lb="AI"/>
          <char cp="26DB" age="5.2" na="HEAVY WHITE DOWN-POINTING TRIANGLE" ea="A" lb="AI"/>
-         <char cp="26DC" age="5.2" na="LEFT CLOSED ENTRY" ea="A" lb="AI"/>
+         <char cp="26DC" age="5.2" na="LEFT CLOSED ENTRY" ea="A" lb="ID"/>
          <char cp="26DD" age="5.2" na="SQUARED SALTIRE" ea="A" lb="AI"/>
          <char cp="26DE" age="5.2" na="FALLING DIAGONAL IN WHITE CIRCLE IN BLACK SQUARE" ea="A" lb="AI"/>
-         <char cp="26DF" age="5.2" na="BLACK TRUCK" ea="A" lb="AI"/>
-         <char cp="26E0" age="5.2" na="RESTRICTED LEFT ENTRY-1" ea="A" lb="AI"/>
-         <char cp="26E1" age="5.2" na="RESTRICTED LEFT ENTRY-2" ea="A" lb="AI"/>
+         <char cp="26DF" age="5.2" na="BLACK TRUCK" ea="A" lb="ID"/>
+         <char cp="26E0" age="5.2" na="RESTRICTED LEFT ENTRY-1" ea="A" lb="ID"/>
+         <char cp="26E1" age="5.2" na="RESTRICTED LEFT ENTRY-2" ea="A" lb="ID"/>
          <char cp="26E2" age="6.0" na="ASTRONOMICAL SYMBOL FOR URANUS"/>
          <char cp="26E3" age="5.2" na="HEAVY CIRCLE WITH STROKE AND TWO DOTS ABOVE" ea="A" lb="AI"/>
          <char cp="26E4" age="6.0" na="PENTAGRAM"/>
@@ -9423,44 +9426,44 @@
          <char cp="26E7" age="6.0" na="INVERTED PENTAGRAM"/>
          <char cp="26E8" age="5.2" na="BLACK CROSS ON SHIELD" ea="A" lb="AI"/>
          <char cp="26E9" age="5.2" na="SHINTO SHRINE" ea="A" lb="AI"/>
-         <char cp="26EA" age="5.2" na="CHURCH" ea="A" lb="AI"/>
+         <char cp="26EA" age="5.2" na="CHURCH" ea="A" lb="ID"/>
          <char cp="26EB" age="5.2" na="CASTLE" ea="A" lb="AI"/>
          <char cp="26EC" age="5.2" na="HISTORIC SITE" ea="A" lb="AI"/>
          <char cp="26ED" age="5.2" na="GEAR WITHOUT HUB" ea="A" lb="AI"/>
          <char cp="26EE" age="5.2" na="GEAR WITH HANDLES" ea="A" lb="AI"/>
          <char cp="26EF" age="5.2" na="MAP SYMBOL FOR LIGHTHOUSE" ea="A" lb="AI"/>
          <char cp="26F0" age="5.2" na="MOUNTAIN" ea="A" lb="AI"/>
-         <char cp="26F1" age="5.2" na="UMBRELLA ON GROUND" ea="A" lb="AI"/>
-         <char cp="26F2" age="5.2" na="FOUNTAIN" ea="A" lb="AI"/>
-         <char cp="26F3" age="5.2" na="FLAG IN HOLE" ea="A" lb="AI"/>
-         <char cp="26F4" age="5.2" na="FERRY" ea="A" lb="AI"/>
-         <char cp="26F5" age="5.2" na="SAILBOAT" ea="A" lb="AI"/>
+         <char cp="26F1" age="5.2" na="UMBRELLA ON GROUND" ea="A" lb="ID"/>
+         <char cp="26F2" age="5.2" na="FOUNTAIN" ea="A" lb="ID"/>
+         <char cp="26F3" age="5.2" na="FLAG IN HOLE" ea="A" lb="ID"/>
+         <char cp="26F4" age="5.2" na="FERRY" ea="A" lb="ID"/>
+         <char cp="26F5" age="5.2" na="SAILBOAT" ea="A" lb="ID"/>
          <char cp="26F6" age="5.2" na="SQUARE FOUR CORNERS" ea="A" lb="AI"/>
-         <char cp="26F7" age="5.2" na="SKIER" ea="A" lb="AI"/>
-         <char cp="26F8" age="5.2" na="ICE SKATE" ea="A" lb="AI"/>
-         <char cp="26F9" age="5.2" na="PERSON WITH BALL" ea="A" lb="AI"/>
-         <char cp="26FA" age="5.2" na="TENT" ea="A" lb="AI"/>
+         <char cp="26F7" age="5.2" na="SKIER" ea="A" lb="ID"/>
+         <char cp="26F8" age="5.2" na="ICE SKATE" ea="A" lb="ID"/>
+         <char cp="26F9" age="5.2" na="PERSON WITH BALL" ea="A" lb="ID"/>
+         <char cp="26FA" age="5.2" na="TENT" ea="A" lb="ID"/>
          <char cp="26FB" age="5.2" na="JAPANESE BANK SYMBOL" ea="A" lb="AI"/>
          <char cp="26FC" age="5.2" na="HEADSTONE GRAVEYARD SYMBOL" ea="A" lb="AI"/>
-         <char cp="26FD" age="5.2" na="FUEL PUMP" ea="A" lb="AI"/>
-         <char cp="26FE" age="5.2" na="CUP ON BLACK SQUARE" ea="A" lb="AI"/>
-         <char cp="26FF" age="5.2" na="WHITE FLAG WITH HORIZONTAL MIDDLE BLACK STRIPE" ea="A" lb="AI"/>
+         <char cp="26FD" age="5.2" na="FUEL PUMP" ea="A" lb="ID"/>
+         <char cp="26FE" age="5.2" na="CUP ON BLACK SQUARE" ea="A" lb="ID"/>
+         <char cp="26FF" age="5.2" na="WHITE FLAG WITH HORIZONTAL MIDDLE BLACK STRIPE" ea="A" lb="ID"/>
       </group>
       <group age="1.1" JSN="" gc="So" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="ON" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="AL" sc="Zyyy" scx="Zyyy" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="Y" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Dingbats" isc="" na1="">
          <reserved cp="2700" age="unassigned" na="" gc="Cn" bc="L" lb="XX" sc="Zzzz" scx="Zzzz" Gr_Base="N"/>
-         <char cp="2701" na="UPPER BLADE SCISSORS"/>
-         <char cp="2702" na="BLACK SCISSORS"/>
-         <char cp="2703" na="LOWER BLADE SCISSORS"/>
-         <char cp="2704" na="WHITE SCISSORS"/>
+         <char cp="2701" na="UPPER BLADE SCISSORS" lb="ID"/>
+         <char cp="2702" na="BLACK SCISSORS" lb="ID"/>
+         <char cp="2703" na="LOWER BLADE SCISSORS" lb="ID"/>
+         <char cp="2704" na="WHITE SCISSORS" lb="ID"/>
          <char cp="2705" age="6.0" na="WHITE HEAVY CHECK MARK"/>
          <char cp="2706" na="TELEPHONE LOCATION SIGN"/>
          <char cp="2707" na="TAPE DRIVE"/>
-         <char cp="2708" na="AIRPLANE"/>
-         <char cp="2709" na="ENVELOPE"/>
-         <char cp="270A" age="6.0" na="RAISED FIST"/>
-         <char cp="270B" age="6.0" na="RAISED HAND"/>
-         <char cp="270C" na="VICTORY HAND"/>
-         <char cp="270D" na="WRITING HAND"/>
+         <char cp="2708" na="AIRPLANE" lb="ID"/>
+         <char cp="2709" na="ENVELOPE" lb="ID"/>
+         <char cp="270A" age="6.0" na="RAISED FIST" lb="ID"/>
+         <char cp="270B" age="6.0" na="RAISED HAND" lb="ID"/>
+         <char cp="270C" na="VICTORY HAND" lb="ID"/>
+         <char cp="270D" na="WRITING HAND" lb="ID"/>
          <char cp="270E" na="LOWER RIGHT PENCIL"/>
          <char cp="270F" na="PENCIL"/>
          <char cp="2710" na="UPPER RIGHT PENCIL"/>
@@ -26581,7 +26584,7 @@
          <char cp="D7A3" na="HANGUL SYLLABLE HIH" dm="D788 11C2"/>
          <reserved first-cp="D7A4" last-cp="D7AF" age="unassigned" na="" gc="Cn" dt="none" dm="#" ea="N" lb="XX" sc="Zzzz" scx="Zzzz" hst="NA" Alpha="N" Gr_Base="N" IDS="N" XIDS="N" IDC="N" XIDC="N" GCB="XX" WB="XX" SB="XX" NFD_QC="Y" NFKD_QC="Y" XO_NFD="N" XO_NFKD="N"/>
       </group>
-      <group age="5.2" JSN="" gc="Lo" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="L" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="W" lb="JT" sc="Hang" scx="Hang" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="T" DI="N" ODI="N" Alpha="Y" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="Y" OIDS="N" XIDS="Y" IDC="Y" OIDC="N" XIDC="Y" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="T" WB="LE" SB="LE" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Jamo_Ext_B" isc="" na1="">
+      <group age="5.2" JSN="" gc="Lo" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="L" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="JT" sc="Hang" scx="Hang" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="T" DI="N" ODI="N" Alpha="Y" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="Y" OIDS="N" XIDS="Y" IDC="Y" OIDC="N" XIDC="Y" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="T" WB="LE" SB="LE" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Jamo_Ext_B" isc="" na1="">
          <char cp="D7B0" na="HANGUL JUNGSEONG O-YEO" lb="JV" hst="V" GCB="V"/>
          <char cp="D7B1" na="HANGUL JUNGSEONG O-O-I" lb="JV" hst="V" GCB="V"/>
          <char cp="D7B2" na="HANGUL JUNGSEONG YO-A" lb="JV" hst="V" GCB="V"/>
@@ -26605,7 +26608,7 @@
          <char cp="D7C4" na="HANGUL JUNGSEONG I-I" lb="JV" hst="V" GCB="V"/>
          <char cp="D7C5" na="HANGUL JUNGSEONG ARAEA-A" lb="JV" hst="V" GCB="V"/>
          <char cp="D7C6" na="HANGUL JUNGSEONG ARAEA-E" lb="JV" hst="V" GCB="V"/>
-         <reserved first-cp="D7C7" last-cp="D7CA" age="unassigned" na="" gc="Cn" ea="N" lb="XX" sc="Zzzz" scx="Zzzz" hst="NA" Alpha="N" Gr_Base="N" IDS="N" XIDS="N" IDC="N" XIDC="N" GCB="XX" WB="XX" SB="XX"/>
+         <reserved first-cp="D7C7" last-cp="D7CA" age="unassigned" na="" gc="Cn" lb="XX" sc="Zzzz" scx="Zzzz" hst="NA" Alpha="N" Gr_Base="N" IDS="N" XIDS="N" IDC="N" XIDC="N" GCB="XX" WB="XX" SB="XX"/>
          <char cp="D7CB" na="HANGUL JONGSEONG NIEUN-RIEUL"/>
          <char cp="D7CC" na="HANGUL JONGSEONG NIEUN-CHIEUCH"/>
          <char cp="D7CD" na="HANGUL JONGSEONG SSANGTIKEUT"/>
@@ -26655,7 +26658,7 @@
          <char cp="D7F9" na="HANGUL JONGSEONG SSANGCIEUC"/>
          <char cp="D7FA" na="HANGUL JONGSEONG PHIEUPH-SIOS"/>
          <char cp="D7FB" na="HANGUL JONGSEONG PHIEUPH-THIEUTH"/>
-         <reserved first-cp="D7FC" last-cp="D7FF" age="unassigned" na="" gc="Cn" ea="N" lb="XX" sc="Zzzz" scx="Zzzz" hst="NA" Alpha="N" Gr_Base="N" IDS="N" XIDS="N" IDC="N" XIDC="N" GCB="XX" WB="XX" SB="XX"/>
+         <reserved first-cp="D7FC" last-cp="D7FF" age="unassigned" na="" gc="Cn" lb="XX" sc="Zzzz" scx="Zzzz" hst="NA" Alpha="N" Gr_Base="N" IDS="N" XIDS="N" IDC="N" XIDC="N" GCB="XX" WB="XX" SB="XX"/>
       </group>
       <group>
          <surrogate first-cp="D800" last-cp="DB7F" age="2.0" na="" JSN="" gc="Cs" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="L" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="SG" sc="Zzzz" scx="Zzzz" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="N" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="CN" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="High_Surrogates" isc="" na1=""/>
@@ -31197,8 +31200,8 @@
          <char cp="1242F" na="CUNEIFORM NUMERIC SIGN THREE SHARU VARIANT FORM" nv="3"/>
          <char cp="12430" na="CUNEIFORM NUMERIC SIGN FOUR SHARU" nv="4"/>
          <char cp="12431" na="CUNEIFORM NUMERIC SIGN FIVE SHARU" nv="5"/>
-         <char cp="12432" na="CUNEIFORM NUMERIC SIGN SHAR2 TIMES GAL PLUS DISH" nt="None" nv="NaN"/>
-         <char cp="12433" na="CUNEIFORM NUMERIC SIGN SHAR2 TIMES GAL PLUS MIN" nt="None" nv="NaN"/>
+         <char cp="12432" na="CUNEIFORM NUMERIC SIGN SHAR2 TIMES GAL PLUS DISH" nv="216000"/>
+         <char cp="12433" na="CUNEIFORM NUMERIC SIGN SHAR2 TIMES GAL PLUS MIN" nv="432000"/>
          <char cp="12434" na="CUNEIFORM NUMERIC SIGN ONE BURU" nv="1"/>
          <char cp="12435" na="CUNEIFORM NUMERIC SIGN TWO BURU" nv="2"/>
          <char cp="12436" na="CUNEIFORM NUMERIC SIGN THREE BURU" nv="3"/>
@@ -31233,8 +31236,8 @@
          <char cp="12453" na="CUNEIFORM NUMERIC SIGN FOUR BAN2 VARIANT FORM" nv="4"/>
          <char cp="12454" na="CUNEIFORM NUMERIC SIGN FIVE BAN2" nv="5"/>
          <char cp="12455" na="CUNEIFORM NUMERIC SIGN FIVE BAN2 VARIANT FORM" nv="5"/>
-         <char cp="12456" na="CUNEIFORM NUMERIC SIGN NIGIDAMIN" nt="None" nv="NaN"/>
-         <char cp="12457" na="CUNEIFORM NUMERIC SIGN NIGIDAESH" nt="None" nv="NaN"/>
+         <char cp="12456" na="CUNEIFORM NUMERIC SIGN NIGIDAMIN" nv="-1"/>
+         <char cp="12457" na="CUNEIFORM NUMERIC SIGN NIGIDAESH" nv="-1"/>
          <char cp="12458" na="CUNEIFORM NUMERIC SIGN ONE ESHE3" nv="1"/>
          <char cp="12459" na="CUNEIFORM NUMERIC SIGN TWO ESHE3" nv="2"/>
          <char cp="1245A" na="CUNEIFORM NUMERIC SIGN ONE THIRD DISH" nv="1/3"/>
@@ -34925,7 +34928,7 @@
       <group>
          <reserved first-cp="1EF00" last-cp="1EFFF" age="unassigned" na="" JSN="" gc="Cn" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="R" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="XX" sc="Zzzz" scx="Zzzz" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="N" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="NB" isc="" na1=""/>
       </group>
-      <group age="5.1" JSN="" gc="So" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="ON" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="AL" sc="Zyyy" scx="Zyyy" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Mahjong" isc="" na1="">
+      <group age="5.1" JSN="" gc="So" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="ON" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="ID" sc="Zyyy" scx="Zyyy" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Mahjong" isc="" na1="">
          <char cp="1F000" na="MAHJONG TILE EAST WIND"/>
          <char cp="1F001" na="MAHJONG TILE SOUTH WIND"/>
          <char cp="1F002" na="MAHJONG TILE WEST WIND"/>
@@ -34972,7 +34975,7 @@
          <char cp="1F02B" na="MAHJONG TILE BACK"/>
          <reserved first-cp="1F02C" last-cp="1F02F" age="unassigned" na="" gc="Cn" bc="L" lb="XX" sc="Zzzz" scx="Zzzz" Gr_Base="N"/>
       </group>
-      <group age="5.1" JSN="" gc="So" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="ON" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="AL" sc="Zyyy" scx="Zyyy" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Domino" isc="" na1="">
+      <group age="5.1" JSN="" gc="So" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="ON" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="ID" sc="Zyyy" scx="Zyyy" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Domino" isc="" na1="">
          <char cp="1F030" na="DOMINO TILE HORIZONTAL BACK"/>
          <char cp="1F031" na="DOMINO TILE HORIZONTAL-00-00"/>
          <char cp="1F032" na="DOMINO TILE HORIZONTAL-00-01"/>
@@ -35075,7 +35078,7 @@
          <char cp="1F093" na="DOMINO TILE VERTICAL-06-06"/>
          <reserved first-cp="1F094" last-cp="1F09F" age="unassigned" na="" gc="Cn" bc="L" lb="XX" sc="Zzzz" scx="Zzzz" Gr_Base="N"/>
       </group>
-      <group age="6.0" JSN="" gc="So" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="ON" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="AL" sc="Zyyy" scx="Zyyy" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Playing_Cards" isc="" na1="">
+      <group age="6.0" JSN="" gc="So" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="ON" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="ID" sc="Zyyy" scx="Zyyy" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Playing_Cards" isc="" na1="">
          <char cp="1F0A0" na="PLAYING CARD BACK"/>
          <char cp="1F0A1" na="PLAYING CARD ACE OF SPADES"/>
          <char cp="1F0A2" na="PLAYING CARD TWO OF SPADES"/>
@@ -35290,32 +35293,32 @@
          <char cp="1F199" na="SQUARED UP WITH EXCLAMATION MARK"/>
          <char cp="1F19A" na="SQUARED VS"/>
          <reserved first-cp="1F19B" last-cp="1F1E5" age="unassigned" na="" gc="Cn" ea="N" lb="XX" sc="Zzzz" scx="Zzzz" Gr_Base="N"/>
-         <char cp="1F1E6" na="REGIONAL INDICATOR SYMBOL LETTER A" ea="N" lb="AL"/>
-         <char cp="1F1E7" na="REGIONAL INDICATOR SYMBOL LETTER B" ea="N" lb="AL"/>
-         <char cp="1F1E8" na="REGIONAL INDICATOR SYMBOL LETTER C" ea="N" lb="AL"/>
-         <char cp="1F1E9" na="REGIONAL INDICATOR SYMBOL LETTER D" ea="N" lb="AL"/>
-         <char cp="1F1EA" na="REGIONAL INDICATOR SYMBOL LETTER E" ea="N" lb="AL"/>
-         <char cp="1F1EB" na="REGIONAL INDICATOR SYMBOL LETTER F" ea="N" lb="AL"/>
-         <char cp="1F1EC" na="REGIONAL INDICATOR SYMBOL LETTER G" ea="N" lb="AL"/>
-         <char cp="1F1ED" na="REGIONAL INDICATOR SYMBOL LETTER H" ea="N" lb="AL"/>
-         <char cp="1F1EE" na="REGIONAL INDICATOR SYMBOL LETTER I" ea="N" lb="AL"/>
-         <char cp="1F1EF" na="REGIONAL INDICATOR SYMBOL LETTER J" ea="N" lb="AL"/>
-         <char cp="1F1F0" na="REGIONAL INDICATOR SYMBOL LETTER K" ea="N" lb="AL"/>
-         <char cp="1F1F1" na="REGIONAL INDICATOR SYMBOL LETTER L" ea="N" lb="AL"/>
-         <char cp="1F1F2" na="REGIONAL INDICATOR SYMBOL LETTER M" ea="N" lb="AL"/>
-         <char cp="1F1F3" na="REGIONAL INDICATOR SYMBOL LETTER N" ea="N" lb="AL"/>
-         <char cp="1F1F4" na="REGIONAL INDICATOR SYMBOL LETTER O" ea="N" lb="AL"/>
-         <char cp="1F1F5" na="REGIONAL INDICATOR SYMBOL LETTER P" ea="N" lb="AL"/>
-         <char cp="1F1F6" na="REGIONAL INDICATOR SYMBOL LETTER Q" ea="N" lb="AL"/>
-         <char cp="1F1F7" na="REGIONAL INDICATOR SYMBOL LETTER R" ea="N" lb="AL"/>
-         <char cp="1F1F8" na="REGIONAL INDICATOR SYMBOL LETTER S" ea="N" lb="AL"/>
-         <char cp="1F1F9" na="REGIONAL INDICATOR SYMBOL LETTER T" ea="N" lb="AL"/>
-         <char cp="1F1FA" na="REGIONAL INDICATOR SYMBOL LETTER U" ea="N" lb="AL"/>
-         <char cp="1F1FB" na="REGIONAL INDICATOR SYMBOL LETTER V" ea="N" lb="AL"/>
-         <char cp="1F1FC" na="REGIONAL INDICATOR SYMBOL LETTER W" ea="N" lb="AL"/>
-         <char cp="1F1FD" na="REGIONAL INDICATOR SYMBOL LETTER X" ea="N" lb="AL"/>
-         <char cp="1F1FE" na="REGIONAL INDICATOR SYMBOL LETTER Y" ea="N" lb="AL"/>
-         <char cp="1F1FF" na="REGIONAL INDICATOR SYMBOL LETTER Z" ea="N" lb="AL"/>
+         <char cp="1F1E6" na="REGIONAL INDICATOR SYMBOL LETTER A" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1E7" na="REGIONAL INDICATOR SYMBOL LETTER B" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1E8" na="REGIONAL INDICATOR SYMBOL LETTER C" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1E9" na="REGIONAL INDICATOR SYMBOL LETTER D" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1EA" na="REGIONAL INDICATOR SYMBOL LETTER E" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1EB" na="REGIONAL INDICATOR SYMBOL LETTER F" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1EC" na="REGIONAL INDICATOR SYMBOL LETTER G" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1ED" na="REGIONAL INDICATOR SYMBOL LETTER H" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1EE" na="REGIONAL INDICATOR SYMBOL LETTER I" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1EF" na="REGIONAL INDICATOR SYMBOL LETTER J" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1F0" na="REGIONAL INDICATOR SYMBOL LETTER K" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1F1" na="REGIONAL INDICATOR SYMBOL LETTER L" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1F2" na="REGIONAL INDICATOR SYMBOL LETTER M" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1F3" na="REGIONAL INDICATOR SYMBOL LETTER N" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1F4" na="REGIONAL INDICATOR SYMBOL LETTER O" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1F5" na="REGIONAL INDICATOR SYMBOL LETTER P" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1F6" na="REGIONAL INDICATOR SYMBOL LETTER Q" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1F7" na="REGIONAL INDICATOR SYMBOL LETTER R" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1F8" na="REGIONAL INDICATOR SYMBOL LETTER S" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1F9" na="REGIONAL INDICATOR SYMBOL LETTER T" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1FA" na="REGIONAL INDICATOR SYMBOL LETTER U" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1FB" na="REGIONAL INDICATOR SYMBOL LETTER V" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1FC" na="REGIONAL INDICATOR SYMBOL LETTER W" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1FD" na="REGIONAL INDICATOR SYMBOL LETTER X" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1FE" na="REGIONAL INDICATOR SYMBOL LETTER Y" ea="N" lb="RI" GCB="RI" WB="RI"/>
+         <char cp="1F1FF" na="REGIONAL INDICATOR SYMBOL LETTER Z" ea="N" lb="RI" GCB="RI" WB="RI"/>
       </group>
       <group age="5.2" JSN="" gc="So" ccc="0" dt="sqr" nt="None" nv="NaN" bc="L" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="W" lb="ID" sc="Zyyy" scx="Zyyy" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="N" NFKD_QC="N" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="Y" CWL="N" CWT="N" CWU="N" InSC="Other" InMC="NA" blk="Enclosed_Ideographic_Sup" isc="" na1="">
          <char cp="1F200" na="SQUARE HIRAGANA HOKA" dm="307B 304B" sc="Hira" scx="Hira" XO_NFKC="Y" XO_NFKD="Y" NFKC_CF="307B 304B"/>
@@ -35380,7 +35383,7 @@
          <char cp="1F251" age="6.0" na="CIRCLED IDEOGRAPH ACCEPT" dt="enc" dm="53EF" NFKC_CF="53EF"/>
          <reserved first-cp="1F252" last-cp="1F2FF" age="unassigned" na="" gc="Cn" dt="none" dm="#" ea="N" lb="XX" sc="Zzzz" scx="Zzzz" Gr_Base="N" NFKC_QC="Y" NFKD_QC="Y" CWKCF="N" NFKC_CF="#"/>
       </group>
-      <group age="6.0" JSN="" gc="So" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="ON" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="AL" sc="Zyyy" scx="Zyyy" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Misc_Pictographs" isc="" na1="">
+      <group age="6.0" JSN="" gc="So" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="ON" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="ID" sc="Zyyy" scx="Zyyy" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Misc_Pictographs" isc="" na1="">
          <char cp="1F300" na="CYCLONE"/>
          <char cp="1F301" na="FOGGY"/>
          <char cp="1F302" na="CLOSED UMBRELLA"/>
@@ -35535,14 +35538,14 @@
          <char cp="1F3B2" na="GAME DIE"/>
          <char cp="1F3B3" na="BOWLING"/>
          <char cp="1F3B4" na="FLOWER PLAYING CARDS"/>
-         <char cp="1F3B5" na="MUSICAL NOTE"/>
-         <char cp="1F3B6" na="MULTIPLE MUSICAL NOTES"/>
+         <char cp="1F3B5" na="MUSICAL NOTE" lb="AL"/>
+         <char cp="1F3B6" na="MULTIPLE MUSICAL NOTES" lb="AL"/>
          <char cp="1F3B7" na="SAXOPHONE"/>
          <char cp="1F3B8" na="GUITAR"/>
          <char cp="1F3B9" na="MUSICAL KEYBOARD"/>
          <char cp="1F3BA" na="TRUMPET"/>
          <char cp="1F3BB" na="VIOLIN"/>
-         <char cp="1F3BC" na="MUSICAL SCORE"/>
+         <char cp="1F3BC" na="MUSICAL SCORE" lb="AL"/>
          <char cp="1F3BD" na="RUNNING SHIRT WITH SASH"/>
          <char cp="1F3BE" na="TENNIS RACQUET AND BALL"/>
          <char cp="1F3BF" na="SKI AND SKI BOOT"/>
@@ -35736,11 +35739,11 @@
          <char cp="1F49D" na="HEART WITH RIBBON"/>
          <char cp="1F49E" na="REVOLVING HEARTS"/>
          <char cp="1F49F" na="HEART DECORATION"/>
-         <char cp="1F4A0" na="DIAMOND SHAPE WITH A DOT INSIDE"/>
+         <char cp="1F4A0" na="DIAMOND SHAPE WITH A DOT INSIDE" lb="AL"/>
          <char cp="1F4A1" na="ELECTRIC LIGHT BULB"/>
-         <char cp="1F4A2" na="ANGER SYMBOL"/>
+         <char cp="1F4A2" na="ANGER SYMBOL" lb="AL"/>
          <char cp="1F4A3" na="BOMB"/>
-         <char cp="1F4A4" na="SLEEPING SYMBOL"/>
+         <char cp="1F4A4" na="SLEEPING SYMBOL" lb="AL"/>
          <char cp="1F4A5" na="COLLISION SYMBOL"/>
          <char cp="1F4A6" na="SPLASHING SWEAT SYMBOL"/>
          <char cp="1F4A7" na="DROPLET"/>
@@ -35751,10 +35754,10 @@
          <char cp="1F4AC" na="SPEECH BALLOON"/>
          <char cp="1F4AD" na="THOUGHT BALLOON"/>
          <char cp="1F4AE" na="WHITE FLOWER"/>
-         <char cp="1F4AF" na="HUNDRED POINTS SYMBOL"/>
+         <char cp="1F4AF" na="HUNDRED POINTS SYMBOL" lb="AL"/>
          <char cp="1F4B0" na="MONEY BAG"/>
-         <char cp="1F4B1" na="CURRENCY EXCHANGE"/>
-         <char cp="1F4B2" na="HEAVY DOLLAR SIGN"/>
+         <char cp="1F4B1" na="CURRENCY EXCHANGE" lb="AL"/>
+         <char cp="1F4B2" na="HEAVY DOLLAR SIGN" lb="AL"/>
          <char cp="1F4B3" na="CREDIT CARD"/>
          <char cp="1F4B4" na="BANKNOTE WITH YEN SIGN"/>
          <char cp="1F4B5" na="BANKNOTE WITH DOLLAR SIGN"/>
@@ -35830,13 +35833,13 @@
          <char cp="1F4FB" na="RADIO"/>
          <char cp="1F4FC" na="VIDEOCASSETTE"/>
          <reserved first-cp="1F4FD" last-cp="1F4FF" age="unassigned" na="" gc="Cn" bc="L" lb="XX" sc="Zzzz" scx="Zzzz" Gr_Base="N"/>
-         <char cp="1F500" na="TWISTED RIGHTWARDS ARROWS"/>
-         <char cp="1F501" na="CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS"/>
-         <char cp="1F502" na="CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY"/>
-         <char cp="1F503" na="CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS"/>
-         <char cp="1F504" na="ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS"/>
-         <char cp="1F505" na="LOW BRIGHTNESS SYMBOL"/>
-         <char cp="1F506" na="HIGH BRIGHTNESS SYMBOL"/>
+         <char cp="1F500" na="TWISTED RIGHTWARDS ARROWS" lb="AL"/>
+         <char cp="1F501" na="CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS" lb="AL"/>
+         <char cp="1F502" na="CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY" lb="AL"/>
+         <char cp="1F503" na="CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS" lb="AL"/>
+         <char cp="1F504" na="ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS" lb="AL"/>
+         <char cp="1F505" na="LOW BRIGHTNESS SYMBOL" lb="AL"/>
+         <char cp="1F506" na="HIGH BRIGHTNESS SYMBOL" lb="AL"/>
          <char cp="1F507" na="SPEAKER WITH CANCELLATION STROKE"/>
          <char cp="1F508" na="SPEAKER"/>
          <char cp="1F509" na="SPEAKER WITH ONE SOUND WAVE"/>
@@ -35853,20 +35856,20 @@
          <char cp="1F514" na="BELL"/>
          <char cp="1F515" na="BELL WITH CANCELLATION STROKE"/>
          <char cp="1F516" na="BOOKMARK"/>
-         <char cp="1F517" na="LINK SYMBOL"/>
-         <char cp="1F518" na="RADIO BUTTON"/>
-         <char cp="1F519" na="BACK WITH LEFTWARDS ARROW ABOVE"/>
-         <char cp="1F51A" na="END WITH LEFTWARDS ARROW ABOVE"/>
-         <char cp="1F51B" na="ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE"/>
-         <char cp="1F51C" na="SOON WITH RIGHTWARDS ARROW ABOVE"/>
-         <char cp="1F51D" na="TOP WITH UPWARDS ARROW ABOVE"/>
-         <char cp="1F51E" na="NO ONE UNDER EIGHTEEN SYMBOL"/>
-         <char cp="1F51F" na="KEYCAP TEN"/>
-         <char cp="1F520" na="INPUT SYMBOL FOR LATIN CAPITAL LETTERS"/>
-         <char cp="1F521" na="INPUT SYMBOL FOR LATIN SMALL LETTERS"/>
-         <char cp="1F522" na="INPUT SYMBOL FOR NUMBERS"/>
-         <char cp="1F523" na="INPUT SYMBOL FOR SYMBOLS"/>
-         <char cp="1F524" na="INPUT SYMBOL FOR LATIN LETTERS"/>
+         <char cp="1F517" na="LINK SYMBOL" lb="AL"/>
+         <char cp="1F518" na="RADIO BUTTON" lb="AL"/>
+         <char cp="1F519" na="BACK WITH LEFTWARDS ARROW ABOVE" lb="AL"/>
+         <char cp="1F51A" na="END WITH LEFTWARDS ARROW ABOVE" lb="AL"/>
+         <char cp="1F51B" na="ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE" lb="AL"/>
+         <char cp="1F51C" na="SOON WITH RIGHTWARDS ARROW ABOVE" lb="AL"/>
+         <char cp="1F51D" na="TOP WITH UPWARDS ARROW ABOVE" lb="AL"/>
+         <char cp="1F51E" na="NO ONE UNDER EIGHTEEN SYMBOL" lb="AL"/>
+         <char cp="1F51F" na="KEYCAP TEN" lb="AL"/>
+         <char cp="1F520" na="INPUT SYMBOL FOR LATIN CAPITAL LETTERS" lb="AL"/>
+         <char cp="1F521" na="INPUT SYMBOL FOR LATIN SMALL LETTERS" lb="AL"/>
+         <char cp="1F522" na="INPUT SYMBOL FOR NUMBERS" lb="AL"/>
+         <char cp="1F523" na="INPUT SYMBOL FOR SYMBOLS" lb="AL"/>
+         <char cp="1F524" na="INPUT SYMBOL FOR LATIN LETTERS" lb="AL"/>
          <char cp="1F525" na="FIRE"/>
          <char cp="1F526" na="ELECTRIC TORCH"/>
          <char cp="1F527" na="WRENCH"/>
@@ -35880,23 +35883,23 @@
          <char cp="1F52F" na="SIX POINTED STAR WITH MIDDLE DOT"/>
          <char cp="1F530" na="JAPANESE SYMBOL FOR BEGINNER"/>
          <char cp="1F531" na="TRIDENT EMBLEM"/>
-         <char cp="1F532" na="BLACK SQUARE BUTTON"/>
-         <char cp="1F533" na="WHITE SQUARE BUTTON"/>
-         <char cp="1F534" na="LARGE RED CIRCLE"/>
-         <char cp="1F535" na="LARGE BLUE CIRCLE"/>
-         <char cp="1F536" na="LARGE ORANGE DIAMOND"/>
-         <char cp="1F537" na="LARGE BLUE DIAMOND"/>
-         <char cp="1F538" na="SMALL ORANGE DIAMOND"/>
-         <char cp="1F539" na="SMALL BLUE DIAMOND"/>
-         <char cp="1F53A" na="UP-POINTING RED TRIANGLE"/>
-         <char cp="1F53B" na="DOWN-POINTING RED TRIANGLE"/>
-         <char cp="1F53C" na="UP-POINTING SMALL RED TRIANGLE"/>
-         <char cp="1F53D" na="DOWN-POINTING SMALL RED TRIANGLE"/>
+         <char cp="1F532" na="BLACK SQUARE BUTTON" lb="AL"/>
+         <char cp="1F533" na="WHITE SQUARE BUTTON" lb="AL"/>
+         <char cp="1F534" na="LARGE RED CIRCLE" lb="AL"/>
+         <char cp="1F535" na="LARGE BLUE CIRCLE" lb="AL"/>
+         <char cp="1F536" na="LARGE ORANGE DIAMOND" lb="AL"/>
+         <char cp="1F537" na="LARGE BLUE DIAMOND" lb="AL"/>
+         <char cp="1F538" na="SMALL ORANGE DIAMOND" lb="AL"/>
+         <char cp="1F539" na="SMALL BLUE DIAMOND" lb="AL"/>
+         <char cp="1F53A" na="UP-POINTING RED TRIANGLE" lb="AL"/>
+         <char cp="1F53B" na="DOWN-POINTING RED TRIANGLE" lb="AL"/>
+         <char cp="1F53C" na="UP-POINTING SMALL RED TRIANGLE" lb="AL"/>
+         <char cp="1F53D" na="DOWN-POINTING SMALL RED TRIANGLE" lb="AL"/>
          <reserved first-cp="1F53E" last-cp="1F53F" age="unassigned" na="" gc="Cn" bc="L" lb="XX" sc="Zzzz" scx="Zzzz" Gr_Base="N"/>
-         <char cp="1F540" age="6.1" na="CIRCLED CROSS POMMEE"/>
-         <char cp="1F541" age="6.1" na="CROSS POMMEE WITH HALF-CIRCLE BELOW"/>
-         <char cp="1F542" age="6.1" na="CROSS POMMEE"/>
-         <char cp="1F543" age="6.1" na="NOTCHED LEFT SEMICIRCLE WITH THREE DOTS"/>
+         <char cp="1F540" age="6.1" na="CIRCLED CROSS POMMEE" lb="AL"/>
+         <char cp="1F541" age="6.1" na="CROSS POMMEE WITH HALF-CIRCLE BELOW" lb="AL"/>
+         <char cp="1F542" age="6.1" na="CROSS POMMEE" lb="AL"/>
+         <char cp="1F543" age="6.1" na="NOTCHED LEFT SEMICIRCLE WITH THREE DOTS" lb="AL"/>
          <reserved first-cp="1F544" last-cp="1F54F" age="unassigned" na="" gc="Cn" bc="L" lb="XX" sc="Zzzz" scx="Zzzz" Gr_Base="N"/>
          <char cp="1F550" na="CLOCK FACE ONE OCLOCK"/>
          <char cp="1F551" na="CLOCK FACE TWO OCLOCK"/>
@@ -35929,7 +35932,7 @@
          <char cp="1F5FE" na="SILHOUETTE OF JAPAN"/>
          <char cp="1F5FF" na="MOYAI"/>
       </group>
-      <group age="6.0" JSN="" gc="So" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="ON" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="AL" sc="Zyyy" scx="Zyyy" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Emoticons" isc="" na1="">
+      <group age="6.0" JSN="" gc="So" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="ON" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="ID" sc="Zyyy" scx="Zyyy" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Emoticons" isc="" na1="">
          <char cp="1F600" age="6.1" na="GRINNING FACE"/>
          <char cp="1F601" na="GRINNING FACE WITH SMILING EYES"/>
          <char cp="1F602" na="FACE WITH TEARS OF JOY"/>
@@ -36011,7 +36014,7 @@
       <group>
          <reserved first-cp="1F650" last-cp="1F67F" age="unassigned" na="" JSN="" gc="Cn" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="L" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="XX" sc="Zzzz" scx="Zzzz" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="N" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="NB" isc="" na1=""/>
       </group>
-      <group age="6.0" JSN="" gc="So" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="ON" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="AL" sc="Zyyy" scx="Zyyy" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Transport_And_Map" isc="" na1="">
+      <group age="6.0" JSN="" gc="So" ccc="0" dt="none" dm="#" nt="None" nv="NaN" bc="ON" Bidi_M="N" bmg="" suc="#" slc="#" stc="#" uc="#" lc="#" tc="#" scf="#" cf="#" jt="U" jg="No_Joining_Group" ea="N" lb="ID" sc="Zyyy" scx="Zyyy" Dash="N" WSpace="N" Hyphen="N" QMark="N" Radical="N" Ideo="N" UIdeo="N" IDSB="N" IDST="N" hst="NA" DI="N" ODI="N" Alpha="N" OAlpha="N" Upper="N" OUpper="N" Lower="N" OLower="N" Math="N" OMath="N" Hex="N" AHex="N" NChar="N" VS="N" Bidi_C="N" Join_C="N" Gr_Base="Y" Gr_Ext="N" OGr_Ext="N" Gr_Link="N" STerm="N" Ext="N" Term="N" Dia="N" Dep="N" IDS="N" OIDS="N" XIDS="N" IDC="N" OIDC="N" XIDC="N" SD="N" LOE="N" Pat_WS="N" Pat_Syn="N" GCB="XX" WB="XX" SB="XX" CE="N" Comp_Ex="N" NFC_QC="Y" NFD_QC="Y" NFKC_QC="Y" NFKD_QC="Y" XO_NFC="N" XO_NFD="N" XO_NFKC="N" XO_NFKD="N" FC_NFKC="#" CI="N" Cased="N" CWCF="N" CWCM="N" CWKCF="N" CWL="N" CWT="N" CWU="N" NFKC_CF="#" InSC="Other" InMC="NA" blk="Transport_And_Map" isc="" na1="">
          <char cp="1F680" na="ROCKET"/>
          <char cp="1F681" na="HELICOPTER"/>
          <char cp="1F682" na="STEAM LOCOMOTIVE"/>
