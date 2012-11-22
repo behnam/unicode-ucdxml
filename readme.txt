@@ -1,6 +1,6 @@
-XML Representation of Unicode 5.1.0 UCD
+XML Representation of Unicode 5.2.0 UCD
 
-This directory contains the representation in XML of version 5.1.0 of
+This directory contains the representation in XML of version 5.2.0 of
 the UCD, using the schema defined by UAX 42, "Unicode Character
 Database in XML".
 
@@ -14,9 +14,9 @@ the archive:
 
                     flat         grouped
 
-no Unihan data       481 KB          327 KB
-Unihan data only   4,967 KB        4,971 KB
-complete UCD       6,084 KB        5,298 KB
+no Unihan data       512 KB          348 KB
+Unihan data only   4,968 KB        4,972 KB
+complete UCD       6,112 KB        5,316 KB
 
 The flat versions do not use the group mechanism. The grouped versions
 use the group mechanism, with groups corresponding approximately to
